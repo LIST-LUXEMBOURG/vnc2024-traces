@@ -1,0 +1,25 @@
+# Data traces
+The current repository contains real data traces from LiDAR and Camera sensor which can be used to calibrate the Time-Sensitive Networking simulations.
+
+## Description
+### PCAP files
+Files containing a detailed network packet data. 
+
+### CSV files
+Each record in the ```.csv ```files is a tuple ```(Timestamp, FrameSize, InterFrameGap)```, which can be used to generate frames with variable sizes and inter-frame gaps in the simulation.
+
+The ```Timestamp``` reprsents the time in seconds.
+
+The ```FrameSize``` represents the size of the frame measured in *bits*.
+
+The ```InterFrameGap``` represents the time differnece between two consecutive frames measured in seconds.
+
+## Camera
+#### Files:
+- camera_datatrace.pcap  ```(IP.src == 192.168.4.5)```
+- camera_datatrace.csv
+
+## LiDAR
+#### Files:
+- lidar_datatrace.pcap ```(IP.src == 192.168.4.200)```
+- lidar_datatrace.csv
