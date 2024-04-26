@@ -1,5 +1,5 @@
 # Data traces
-The current repository contains real data traces from LiDAR and Camera sensor which can be used to calibrate the Time-Sensitive Networking simulations.
+The current repository contains real data traces from LiDAR (Robosense Helios 16) and Camera (Logitech C920 HD PRO) sensors which can be used to calibrate the Time-Sensitive Networking (TSN) simulation models. In particular, they serve as input for the simulation models presented in the paper "Cross-Validating Open Source In-Vehicle TSN Simulation Models with COTS Hardware Testebed", accepted for publication in the IEEE Vehicular Networking Conference (VNC 2024).
 
 ## Description
 ### PCAP files
